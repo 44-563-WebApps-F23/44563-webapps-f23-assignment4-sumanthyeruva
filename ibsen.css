@@ -1,3 +1,28 @@
 h1{
     background-color: aqua;
 }
+.speech {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: black;
+}
+
+.direction {
+    font-family:'Courier New', Courier, monospace;
+    font: size 16px;
+    color:red;
+    background-color: antiquewhite;
+    transition: background-color 0.3s,color 0.3s;
+}
+.direction:hover {
+    background-color: rgb(13, 153, 240);
+    color:azure;
+}
+.linde{
+    color:blue
+}
+.krogstad{
+    color:brown
+}
+
+
