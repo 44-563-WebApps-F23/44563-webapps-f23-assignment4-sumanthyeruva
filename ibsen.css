@@ -3,13 +3,13 @@ h1{
 }
 .speech {
     font-family:'Times New Roman', Times, serif;
-    font-size: 14px;
+    font-size: 16px;
     color: black;
 }
 
 .direction {
     font-family:'Courier New', Courier, monospace;
-    font: size 16px;
+    font: size 10px;
     color:red;
     background-color: antiquewhite;
     transition: background-color 0.3s,color 0.3s;
@@ -18,11 +18,16 @@ h1{
     background-color: rgb(13, 153, 240);
     color:azure;
 }
-.linde{
-    color:blue
+div.linde:hover{
+    color:blue;
+    text-shadow: 2px 2px 5px  red;
+    
 }
-.krogstad{
-    color:brown
+div.krogstad:hover{
+    color:brown;
+    text-shadow: 2px 2px 5px  red;
+  
+    
 }
 table{
     width: 50%;
@@ -44,5 +49,5 @@ table td{
 tr:nth-child(even) {
     background-color: #f2f2f2;
   }
-
+  
 
