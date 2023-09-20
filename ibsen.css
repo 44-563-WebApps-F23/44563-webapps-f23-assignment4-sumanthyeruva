@@ -11,6 +11,13 @@
     background-color: antiquewhite;
     transition: background-color 0.3s,color 0.3s;
 }
+.linde{
+    color:rgb(239, 22, 203);
+
+}
+.krogstad{
+    color:rgb(22, 110, 5);
+}
 .direction:hover {
     background-color: rgb(13, 153, 240);
     color:azure;
